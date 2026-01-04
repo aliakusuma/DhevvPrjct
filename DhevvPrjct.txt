@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
    Name = "DHEVV-HUB",
    Icon = skull, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "DHEVV",
-   LoadingSubtitle = "Script By:dv",
+   LoadingSubtitle = "Script By:H2NDEV",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "DarkBlue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -16,7 +16,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = Dhv, -- Create a custom folder for your hub/game
-      FileName = "Dhv Hub"
+      FileName = "Dhevv Hub"
    },
 
    KeySystem = true, -- Set this to true to use our key system
@@ -124,7 +124,7 @@ local Button = GameTab:CreateButton({
 })
 
 local Button = GameTab:CreateButton({
-   Name = "Brookhaven - Lyr Hub",
+   Name = "Brookhaven - Chac Hub",
    Callback = function()
    
   loadstring(game:HttpGet("https://github.com/contateste8/OaOaOaOa-EbEbEbEb/raw/refs/heads/main/ChachadoHubObf.txt"))()
@@ -140,6 +140,7 @@ local Button = GameTab:CreateButton({
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/KNTLX69/SXTHR666/refs/heads/main/SIEXTHER-HYTAMKAN"))()  
    end,
+   
 })
 
 local Button = GameTab:CreateButton({
@@ -147,9 +148,30 @@ local Button = GameTab:CreateButton({
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/AlrecTofficial67/FinzuFile_xploTer/refs/heads/main/Laser_H4M4SALON_TEAMPHScommunity.txt"))()
    end,
+   
+})
+
+local GameTab = Window:CreateTab("Fish It", "rewind")
+local Section = GameTab:CreateSection("Kumpulan Script untuk game tertentu!")
+
+local Button = GameTab:CreateButton({
+   Name = "Fish It - ChloeX",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/MajestySkie/Chloe-X/main/Main/ChloeX"))()
+   end,
+   
+})
+
+local Button = GameTab:CreateButton({
+   Name = "Fish It - LynX",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/4LynxX/Lynx/refs/heads/main/LynxxMain.lua"))()
+   end,
+   
 })
 
 
+   
 Rayfield:Notify({
    Title = "Dhv Hub Loaded",
    Content = "Load script",
