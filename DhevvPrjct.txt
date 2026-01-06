@@ -129,7 +129,15 @@ local Button = GameTab:CreateButton({
    
   loadstring(game:HttpGet("https://github.com/contateste8/OaOaOaOa-EbEbEbEb/raw/refs/heads/main/ChachadoHubObf.txt"))()
    end,
-    
+
+})
+
+local Button = GameTab:CreateButton({
+   Name = "Brookhaven - AeroHub",
+   Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Viunze/Aero_V1/refs/heads/main/aero_v1%25%25Brookhaven.lua"))()
+    end,
 })
 
 local GameTab = Window:CreateTab("Script Salon De fe", "rewind")
